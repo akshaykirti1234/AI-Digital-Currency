@@ -1,2 +1,5 @@
 # Ignore Visual Studio Code workspace settings and extensions
 .vscode/
+node_modules
+package-lock.json
+package.json
