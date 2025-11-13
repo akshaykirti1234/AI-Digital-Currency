@@ -209,7 +209,7 @@
 
         /* Home Section */
         #home {
-            background: linear-gradient(rgba(10, 14, 23, 0.8), rgba(10, 14, 23, 0.9)), url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background: linear-gradient(rgba(10, 14, 23, 0.8), rgba(10, 14, 23, 0.9)), url('../static/photo-1635070041078-e363dbe005cb.avif');
             background-size: cover;
             background-position: center;
             text-align: center;
@@ -378,7 +378,7 @@
         }
 
         .blockchain-animation {
-            height: 200px;
+            height: 390px;
             background: linear-gradient(90deg, #0a0e17, #1a1f2e, #0a0e17);
             border-radius: 10px;
             position: relative;
@@ -603,7 +603,7 @@
 
         /* Conclusion Section */
         #conclusion {
-            background: linear-gradient(rgba(10, 14, 23, 0.8), rgba(10, 14, 23, 0.9)), url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background: linear-gradient(rgba(10, 14, 23, 0.8), rgba(10, 14, 23, 0.9)), url('../static/photo-1639762681485-074b7f938ba0.avif');
             background-size: cover;
             background-position: center;
             text-align: center;
@@ -899,9 +899,14 @@
                 <p>User → Transaction → Blockchain / RBI Server → Receiver</p>
 
                 <div class="blockchain-animation">
-                    <div class="block" style="top: 20px; animation-delay: 0s;">Tx1</div>
+                    <!-- <div class="block" style="top: 20px; animation-delay: 0s;">Tx1</div>
                     <div class="block" style="top: 90px; animation-delay: 2s;">Tx2</div>
-                    <div class="block" style="top: 160px; animation-delay: 4s;">Tx3</div>
+                    <div class="block" style="top: 160px; animation-delay: 4s;">Tx3</div> -->
+                    <video autoplay loop muted playsinline style="width: 100%; height: auto; border-radius: 10px;">
+                        <source src="../static/Secure_Payment_Animation_Generated.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+
                 </div>
 
                 <p>Blockchain ensures secure and transparent transactions</p>
@@ -917,26 +922,26 @@
             <table class="comparison-table">
                 <thead>
                     <tr>
-                        <th>✅ Advantages</th>
-                        <th>⚠ Disadvantages</th>
+                        <th> Advantages</th>
+                        <th> Disadvantages</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="pros">Fast, paperless transactions</td>
-                        <td class="cons">Needs strong internet</td>
+                        <td class="pros">Enables fast and borderless transaction</td>
+                        <td class="cons">Depends heavily on Internet and technology access</td>
                     </tr>
                     <tr>
-                        <td class="pros">Transparent & traceable</td>
-                        <td class="cons">Risk of hacking/scams</td>
+                        <td class="pros">Reduces transaction cost by removing intermediaries</td>
+                        <td class="cons">Faces cyber security risks such as hacking </td>
                     </tr>
                     <tr>
-                        <td class="pros">Reduces corruption</td>
-                        <td class="cons">Price fluctuations in crypto</td>
+                        <td class="pros">Ensure transparency through blockchain records</td>
+                        <td class="cons">Value can be volatile and unpredictable</td>
                     </tr>
                     <tr>
-                        <td class="pros">Saves cost of printing money</td>
-                        <td class="cons">Requires digital literacy</td>
+                        <td class="pros">Provide secure and traceable transactions</td>
+                        <td class="cons">Limited public awareness and understanding</td>
                     </tr>
                 </tbody>
             </table>
