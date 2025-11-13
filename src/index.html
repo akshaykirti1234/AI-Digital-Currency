@@ -378,7 +378,7 @@
         }
 
         .blockchain-animation {
-            height: 390px;
+            aspect-ratio: 16 / 9;
             background: linear-gradient(90deg, #0a0e17, #1a1f2e, #0a0e17);
             border-radius: 10px;
             position: relative;
@@ -386,6 +386,7 @@
             margin: 30px 0;
             border: 1px solid rgba(76, 201, 240, 0.2);
         }
+
 
         .block {
             position: absolute;
@@ -902,10 +903,11 @@
                     <!-- <div class="block" style="top: 20px; animation-delay: 0s;">Tx1</div>
                     <div class="block" style="top: 90px; animation-delay: 2s;">Tx2</div>
                     <div class="block" style="top: 160px; animation-delay: 4s;">Tx3</div> -->
-                    <video autoplay loop muted playsinline style="width: 100%; height: auto; border-radius: 10px;">
+                    <video autoplay loop muted playsinline
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
                         <source src="./static/Secure_Payment_Animation_Generated.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
                     </video>
+
 
                 </div>
 
